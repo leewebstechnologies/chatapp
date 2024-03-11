@@ -1,6 +1,14 @@
+import Chat from "../components/Chat";
+import Sidebar from "../components/Sidebar";
+
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
-export default Home
+    <div className="home">
+      <div className="container">
+        <Sidebar />
+        <Chat />
+      </div>
+    </div>
+  );
+};
+export default Home;

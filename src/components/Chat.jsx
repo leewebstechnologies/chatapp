@@ -1,6 +1,4 @@
 const Chat = () => {
-  return (
-    <div>Chat</div>
-  )
-}
-export default Chat
+  return <div className="chat">Chat</div>;
+};
+export default Chat;

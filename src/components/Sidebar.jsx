@@ -1,6 +1,10 @@
+import Navbar from "./Navbar";
+
 const Sidebar = () => {
   return (
-    <div>Sidebar</div>
-  )
-}
-export default Sidebar
+    <div className="sidebar">
+      <Navbar />
+    </div>
+  );
+};
+export default Sidebar;
