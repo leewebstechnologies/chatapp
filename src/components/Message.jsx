@@ -1,6 +1,14 @@
 const Message = () => {
   return (
-    <div>Message</div>
-  )
-}
-export default Message
+    <div className="message">
+      <div className="messageInfo">
+        <img src="" alt="" />
+        <span>Just Now</span>
+      </div>
+      <div className="messageContent">
+        <p>Hello</p>
+      </div>
+    </div>
+  );
+};
+export default Message;
